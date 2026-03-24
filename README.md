@@ -29,16 +29,16 @@ Aplikasi ini menggunakan fitur **Directory Junction** (`mklink /j`) bawaan Windo
 Jika Anda ingin menjalankan aplikasi ini langsung dari skrip Python:
 
 1. Kloning repositori ini:
-```bash
+   ```bash
    git clone [https://github.com/USERNAME_ANDA/NAMA_REPOSITORI_ANDA.git](https://github.com/USERNAME_ANDA/NAMA_REPOSITORI_ANDA.git)
    cd NAMA_REPOSITORI_ANDA
 
 2. Instal pustaka (libraries) yang dibutuhkan:
-```bash
+   ```bash
    pip install customtkinter psutil
 
 3. Jalankan aplikasi:
-```bash
+   ```bash
    python main.py
 
 
@@ -48,10 +48,11 @@ Jika Anda ingin menjalankan aplikasi ini langsung dari skrip Python:
 Jika Anda ingin membuat file .exe yang portabel agar bisa dibagikan dan dijalankan di komputer Windows manapun tanpa perlu menginstal Python:
 
 1. Pastikan Anda sudah menginstal pustaka PyInstaller:
+   ```bash
     pip install pyinstaller
 
 2. Buka Terminal/CMD di dalam folder proyek ini, lalu jalankan perintah kompilasi berikut:
-
+   ```bash
     pyinstaller --noconsole --onefile main.py
 
 3. Tunggu hingga proses selesai. File main.exe Anda akan tersedia di dalam folder dist/. Anda bisa mengubah nama file tersebut menjadi FolderJunctionManager.exe dan aplikasi siap digunakan!
