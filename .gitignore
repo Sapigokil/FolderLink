@@ -1,0 +1,20 @@
+# Mengabaikan folder cache bawaan Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mengabaikan folder dan file hasil compile PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# Mengabaikan environment virtual (jika Anda menggunakannya)
+venv/
+env/
+.env
+
+# Mengabaikan konfigurasi editor teks/IDE
+.vscode/
+.idea/
