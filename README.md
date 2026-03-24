@@ -34,9 +34,11 @@ Jika Anda ingin menjalankan aplikasi ini langsung dari skrip Python:
    cd NAMA_REPOSITORI_ANDA
 
 2. Instal pustaka (libraries) yang dibutuhkan:
+   ```bash
    pip install customtkinter psutil
 
 3. Jalankan aplikasi:
+    ```bash
    python main.py
 
 
